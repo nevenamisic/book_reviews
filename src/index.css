@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  background-color: rgba(245, 245, 245, 0.771);
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position:sticky;
+  top: 0;
+  background-color: whitesmoke;
+  max-width: 800px;
+  margin: 15px auto;
+  border-bottom: 5px solid #be4848ab;
+  box-shadow: 0px 20px 50px rgb(170, 46, 46);
+}
+.navbar h1 {
+  color: #631212;
+}
+.links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: #802f2f;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  background-color: #3f2323;
+}
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+
+/* blog previews / list */
+.subtitle{
+  margin-left: 25%;
+  margin-bottom: 40px;
+  font-size: large;
+  font-style: italic;
+  font-weight:bolder;
+  color: black;
+}
+.blog-preview {
+  padding: 10px 16px;
+  display: flex;
+  margin: 30px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #8f1b1b;
+  margin-top: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.author{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.genre{
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 2px;
+  color:#631b32;
+  font-weight: 600;
+}
+.yellow{
+  fill: yellow;
+  width: 25px;
+  margin-top: 5px;
+}
+.blog-preview img{
+  width: 100px;
+  height: 150px;
+  margin-left: auto;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 30px;
+  color: #761933;
+  margin-bottom: 10px;
+}
+.blog-details h3{
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.blog-details h4{
+  margin: 7px auto;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.blog-details h5{
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.blog-details p {
+  text-transform: capitalize ;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: right;
+}
+span{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blog-details img{
+  width: 200px;
+  height: 300px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #b50e0e;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  background: #440707;
+}
+
+/* create new review */
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  margin-top: 20px;
+  text-align: left;
+  display: block;
+  font-weight: 600;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #920909;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create button:hover {
+  background-color: #420707;
+}
