@@ -61,12 +61,19 @@ function Create() {
             onChange={(e) => setAuthor(e.target.value)}
           />
           <label>Genre:</label>
-           <input 
-            type='text'
-            required
-            value={genre}
-            onChange={(e) => setGenre(e.target.value)}
-          />
+          <select onChange={(e) => setGenre(e.target.value)}> 
+            <option value='action'>Action</option>
+            <option value='crime'>Crime</option>
+            <option value='drama'>Drama</option>
+            <option value='education & teaching'>Education & Teaching</option>
+            <option value='fiction'>Fiction</option>
+            <option value='health'>Health</option>
+            <option value='novel'>Novel</option>
+            <option value='religion & spirituality'>Religion & Spirituality</option>
+            <option value='romance'>Romance</option>
+            <option value='thriller'>Thriller</option>
+            <option value='travel'>Travel</option>
+          </select>
           <label>Your review:</label>
           <textarea 
             required

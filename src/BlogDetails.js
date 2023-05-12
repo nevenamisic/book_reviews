@@ -20,8 +20,8 @@ const handleDelete = () => {
 
   return (
     <div className='blog-details'>
-        { isLoading && <div>Loading...</div> }
-        { error && <div>{error}</div> }
+        { isLoading && <div className='loading-error'>Loading...</div> }
+        { error && <div className='loading-error'>{error}</div> }
         { blog && (
             <div>
                 <h2>{blog.title}</h2>
